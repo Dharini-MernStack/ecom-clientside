@@ -4,7 +4,7 @@ module.exports = {
         "es2021": true
     },
     "extends": "eslint:recommended",
-    "parser": "babel-eslint",
+    "parser": "react-scripts/node_modules/babel-eslint",
     "parserOptions": {
         "sourceType": "module",
         "allowImportExportEverywhere": true
