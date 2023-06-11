@@ -1,13 +1,15 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "commonjs": true,
+        "es6": true,
     },
     "extends": "eslint:recommended",
-    "parser": "react-scripts/node_modules/babel-eslint",
+
     "parserOptions": {
-        "sourceType": "module",
-        "allowImportExportEverywhere": true
+        "ecmaVersion": "latest",
+        "sourceType": "module"
     },
     "plugins": [
 
