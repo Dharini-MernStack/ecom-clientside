@@ -19,6 +19,6 @@ module.exports = {
 
         "react-hooks/rules-of-hooks": "off", // Checks rules of Hooks
         "react-hooks/exhaustive-deps": "off",// Checks effect dependencies
-        "no-unused-vars": "off"
+        "no-unused-vars": "off"// updated
     }
 }
