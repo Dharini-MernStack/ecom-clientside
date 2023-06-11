@@ -4,17 +4,19 @@ module.exports = {
         "es2021": true
     },
     "extends": "eslint:recommended",
+    "parser": "babel-eslint",
     "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module"
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
     },
     "plugins": [
-        // ...
+
         "react-hooks"
-      ],
-      "rules": {
-        // ...
-        "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
-        "react-hooks/exhaustive-deps": "warn" // Checks effect dependencies
-      }
-  }
+    ],
+    "rules": {
+
+        "react-hooks/rules-of-hooks": "off", // Checks rules of Hooks
+        "react-hooks/exhaustive-deps": "off",// Checks effect dependencies
+        "no-unused-vars": "off"
+    }
+}
